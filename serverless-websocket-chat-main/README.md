@@ -18,13 +18,16 @@ Build a real-time messaging app using serverless architecture.
 ## Architecture
 Client Browser → API Gateway (WebSocket) → AWS Lambda → DynamoDB
 
-Deployment can be done using AWS API Gateway, Lambda, and DynamoDB.
-
-
 ## Description
 This project demonstrates how real-time communication can be achieved
 using serverless cloud services without managing servers.
 
 ## Reference
 Inspired by AWS Serverless WebSocket reference architecture.
+
+## Deployment
+This project can be deployed on AWS using API Gateway (WebSockets),
+AWS Lambda functions, DynamoDB for message storage,
+and Amazon S3 for hosting the frontend.
+
 
